@@ -6,6 +6,8 @@ strip: //*[@aria-hidden="true"]
 # strip additional header-line in text
 #strip: //main/text()
 
+strip: //button
+
 prune: no
 
 test_url: https://cookbook.openai.com/examples/gpt4-1_prompting_guide
