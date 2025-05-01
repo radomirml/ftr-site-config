@@ -1,0 +1,11 @@
+body: //div[@id='content']
+
+strip: //nav
+strip: //*[@aria-hidden="true"]
+
+# strip additional header-line in text
+#strip: //main/text()
+
+prune: no
+
+test_url: https://cookbook.openai.com/examples/gpt4-1_prompting_guide
